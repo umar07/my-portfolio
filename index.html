@@ -72,7 +72,7 @@
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Research Intern</h3> 
                             <div class="subheading mb-3">University of Surrey</div>
@@ -81,6 +81,16 @@
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">October 2021 - Present</span></div>
+                    </div>     -->
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research collaborator</h3> 
+                            <div class="subheading mb-3">Ecole normale superieure - PSL</div>
+                            <p>Collaborating with Ethan Cohen(PhD student) for a project on Self/Semi Supervised learning for out-of-focus/noised images in phenotypic screening.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2021 - Present</span></div>
                     </div>    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -135,7 +145,7 @@
                             <div class="subheading mb-3">HundrED Global Organization</div>
                             <p>HundrED Youth Ambassadors is an active community of students from around the world who are passionate about improving education and want to work with other like-minded young changemakers. </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2021 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2021 - December 2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -297,8 +307,8 @@
                         <a href=" https://github.com/umar07/DL_Projects" target="_blank">
                             Deep Learning</a>
                         <ul>
-                            <li>Ablations of tiny ConvMixer model for classification using DropBlock augmentation and external attention modules(SE, CBAM, ECA, etc). (ongoing)</li>
-                            <li>Experimenting with different channel descriptors instead of the common GlobalAveragePooling2D in external attention modules such the Squeeze and Excitation block(SE), Convolutional Block Attention Module(CBAM), Efficient Channel Attention(ECA) etc. (ongoing)</li> 
+                            <li>Image Inpainting using a U-Net model with a fused ConvMixer encoder.</li>
+                            <li><em>Different Descriptors for Squeeze and Excitation Attention Block</em> - experimented with standard deviation, trace, largest singular value, and DC coefficient of DCT instead of usual GlobalAvgPool2d.</li> 
                             <li><em>Background Remover</em> tool for portrait images of humans, made using a U-Net
                                 model trained for semantic segmentation of the image. The model achieved 0.981
                                 IOU-score on test data. Also deployed on a web-app.</li>
