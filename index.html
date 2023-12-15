@@ -52,10 +52,12 @@
                     </div>
                     <p class="lead mb-5">
                         Hi! I am a graduate student at the University of Toronto, majoring in Artificial Intelligence. I am part of the MSc in Applied Computing (MScAC) program.
-                        I did my undergrad at JMI University, New Delhi.<br>
+                        I did my undergrad at JMI University, New Delhi.
+                        <br><br>
                         My interest is in making machines understand images and videos as we humans do.<br>
-                        I have applied knowledge of Image Processing, Machine Learning, and Deep Learning, with hands-on practice in various image-related tasks in Computer Vision.
-                        I keep reading multiple relevant pieces of literature and try to implement them in code.<br>I also have a basic to intermediate knowledge of web development technologies. <br><br>
+                        I have applied knowledge of Image Processing, Machine Learning, and Deep Learning, with hands-on practice in various image-related tasks in Computer Vision. I have exlored works in different areas such as image recognition, domain generalisation, inverse problems, self-supervised learning, etc.<br>
+                        I love to make and own end-to-end projects that solve real-life problems.
+                        <br><br>
                         Apart from exploring the latest research and technology developments, I can be found consuming content about innovation, ideas, entrepreneurship, start-ups, finance, and alike. A keen interest in the start-up ecosystem.
                         <!-- I have applied knowledge of Machine Learning, Deep Learning, CNNs, and OpenCV.-->
                     </p> 
@@ -105,14 +107,14 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2019 - May 2023</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <!-- <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">The Frank Anthony Public School</h3>
                             <div class="subheading mb-3">Science Stream</div>
                             <p>98%, ICSE 12th</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">April 2004 - March 2019</span></div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
             <hr class="m-0" />
@@ -120,7 +122,7 @@
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                    <h2 class="mb-5">Applied Research</h2> <!--Experience-->
                     <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Research Intern</h3> 
@@ -136,8 +138,10 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">DAAD-WISE Scholar</h3> 
                             <div class="subheading mb-3">Ulm University</div>
-                            <p>Visited the lab at Institute of Neural Information Processing under <a href="https://www.uni-ulm.de/in/neuroinformatik/institut/hidden/f-schwenker/" target="_blank">Prof. Friedhelm Schwenker</a> where I explored the topic of Compressed Image Super-resolution. <br>
-                                Proposed a novel model and training strategy, utilising a pre-trained large scale vision model to assist in learning the representations from the compressed, low-resolution image. Evaluation with baselines showed competitive results. 
+                            <p>Visited the lab at Institute of Neural Information Processing under <a href="https://www.uni-ulm.de/in/neuroinformatik/institut/hidden/f-schwenker/" target="_blank">Prof. Friedhelm Schwenker</a> where I explored the topic of Compressed Image Super-resolution. <br><br>
+                                With only a 4.19M parameter model, could effectively address jpeg compression and super-resolution simultaneously, achieving up to 27.62 PSNR and 0.771 SSIM.<br>
+                                To overcome additional compression artefacts, devised a lightweight CNN-based model leveraging a pre-trained feature extractor during training for information fusion. During inference, it operates independently saving a lot of computation.
+                                <!-- Proposed a novel model and training strategy, utilising a pre-trained large scale vision model to assist in learning the representations from the compressed, low-resolution image. Evaluation with baselines showed competitive results.  -->
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">June 2022 - August 2022</span></div>
@@ -147,8 +151,10 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Research Intern</h3> 
                             <div class="subheading mb-3">Indian Institute of Science (IISc)</div>
-                            <p>Associated with <a href="http://visual-computing.in/home/" target="_blank">VCL Lab</a>, where I am working on Domain Generalisation for Person Re-identification task. <br>
-                                Performed various idea implementations in code and ran experiments. Annotated CUHK03 and MSMT Datasets for person attribute information. Also responsible for visualisation of results in a descriptive manner.
+                            <p>Associated with <a href="http://visual-computing.in/home/" target="_blank">VCL Lab</a>, where I am working on Domain Generalisation for Person Re-identification task. <br><br>
+                                Utilised simple techniques of supervised contrastive learning in Domain Generalisation for Person Re-identification task, getting up to 53.7 mAP and 77.8 Rank-1.
+                                <br>Introduced novel perturbation strategies to realistically model domain variations and preserve target identities. Also
+                                contributed person attribute annotations for CUHK-03 and MSMT17 benchmark datasets.
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">January 2022 - June 2022</span></div>
@@ -159,7 +165,10 @@
                             <h3 class="mb-0">Research collaborator</h3> 
                             <div class="subheading mb-3">Ecole normale superieure - PSL</div>
                             <p>Worked with members of <i>Computational Bioimaging and Bioinformatics</i> team headed by <a href="http://www.ibens.ens.fr/spip.php?rubrique47&lang=fr" target="_blank">Auguste Genovesio</a> for a project on Quality Control of out-of-focus/noised images Phenotypic Screening using Self/Semi Supervised learning.
-                                <br>Responsible for setting up pipelines to pre-train SOTA self-supervised methods on 2.1M images and evaluate the results on downstream classification task. Performed studies with transfer learning and semi-supervised learning as well. The work is accepted at <i>ECCV</i> 2022 Workshop.
+                                <br><br>
+                                For phenotypic screening, devised a method for data quality check on 2.1M images reaching beyond 98% success.<br>
+                                Compared transfer learning and self-supervised learning methods to detect abnormal single-cell images, fine-tuning downstream classification with as little as 350 annotated pairs.
+                                <!-- Responsible for setting up pipelines to pre-train SOTA self-supervised methods on 2.1M images and evaluate the results on downstream classification task. Performed studies with transfer learning and semi-supervised learning as well. The work is accepted at <i>ECCV</i> 2022 Workshop. -->
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">December 2021 - March 2022</span></div>
@@ -169,11 +178,15 @@
                             <h3 class="mb-0">Summer Research Intern</h3> 
                             <div class="subheading mb-3">IIIT-Allahabad</div>
                             <p>Worked on the topic of "Automatic Detection of Image Splicing", under Prof. <a href="https://scholar.google.co.in/citations?user=mVXjhhgAAAAJ&hl=en" target="_blank">Anupam Agarwal</a> , in <i>Interactive Technologies and Multimedia Research (ITMR) Lab.
-                                </i><br>
-                                Did literature review and comparative analysis, implemented baselines from
+                                </i><br><br>
+                                Found 40-45% drop in performance of Image Forgery solutions, questioning the reliability and robustness of several over-estimated results.
+                                <br>Implemented 5 papers from scratch and tested them across 13 different datasets in cross-evaluation and
+                                out-of-distribution training/testing environments, commenting on their generalizability across datasets.
+
+                                <!-- Did literature review and comparative analysis, implemented baselines from
                                 scratch and ran various experiments/simulations,
                                 cross-evaluated the SOTA papers with different datasets and out-of-distribution
-                                training/testing environments. Concluded a study that the latest methods have an overestimated performance and are unsuitable for real-world applications. 
+                                training/testing environments. Concluded a study that the latest methods have an overestimated performance and are unsuitable for real-world applications.  -->
                                 <!-- <a href="https://arxiv.org/abs/2111.12661" target="_blank">(arXiv)</a> -->
                             </p>
                         </div>
@@ -186,17 +199,20 @@
                             <p>Working on various problems in computer vision under Prof. Sarfaraz Masood.</p><br>
                             <ul>
                                 <li>
-                                    Explored "Facial Mask Detection and Positioning", did literature review and analysis, implemented many baseline techniques, designed a novel lightweight model with upto 496x reduction in parameter count in comparison to existing methods. Also, provided a large set of synthetic images developed by stitching masks on faces. The work is accepted at  <a href="http://www.icmlde2022.com/" target="_blank">ICMLDE</a> 2022.
+                                    Designed a novel, lightweight model with up to 496x reduction in parameter count for facial mask detection. Developed a large synthetic dataset by stitching masks at incorrect positions on faces. The dataset has 985+ downloads on
+                                    <a href="https://www.kaggle.com/datasets/mominsiddiqui/enhancedfmld20" target="_blank">Kaggle</a>.
+                                    <!-- Explored "Facial Mask Detection and Positioning", did literature review and analysis, implemented many baseline techniques, designed a novel lightweight model with upto 496x reduction in parameter count in comparison to existing methods. Also, provided a large set of synthetic images developed by stitching masks on faces. The work is accepted at  <a href="http://www.icmlde2022.com/" target="_blank">ICMLDE</a> 2022. -->
                                 </li>
                                 <li>
-                                    Worked on "DeepFake Video Detection", developed a light-weight spatio-temporal model that performed at par with the existing models but with much lesser parameter count and faster inference time. Also, proposed a live feed deployment solution for the same. The work is published in <a href="https://www.springer.com/journal/11760" target="_blank">SIVP</a> Journal.
+                                    Created a 152x times lighter model for DeepFake Video detection while achieving a significant accuracy of 99.24% at a remarkable rate of 80 fps. Accomplished by using both spatial and temporal information through pre-trained CNN encoders, topped up by LSTMs saving up training data and time.
+                                    <!-- Worked on "DeepFake Video Detection", developed a light-weight spatio-temporal model that performed at par with the existing models but with much lesser parameter count and faster inference time. Also, proposed a live feed deployment solution for the same. The work is published in <a href="https://www.springer.com/journal/11760" target="_blank">SIVP</a> Journal. -->
                                 </li>
                                 <!-- <li>
                                     Currently exploring a Transformer based Text Detection and Localisation system in visual inputs containing natural scene text. Experimenting with the model architecture – a backbone network, a boundary proposal module and a core transformer module. Running evaluations with the existing methods and preparing a baseline.
                                 </li> -->
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - December 2022</span></div>
                     </div>
                     <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -225,23 +241,23 @@
                         <a href="https://github.com/umar07/ML_Projects" target="_blank">
                             Classical ML</a>
                         <ul> -->
-                <li><strong>Masud, U.</strong>, Cohen, E., Bendidi, I., Bollot, G., Genovesio, A. (2022). Comparison of semi-supervised learning methods for High Content Screening quality control. In <em>BioImage Computing workshop at <strong>ECCV 2022</strong></em>. <a target="_blank" href="https://doi.org/10.48550/arXiv.2208.04592">https://doi.org/10.48550/arXiv.2208.04592</a>
+                <li><strong>Masud, U.</strong>, Cohen, E., Bendidi, I., Bollot, G., Genovesio, A. (2022). Comparison of semi-supervised learning methods for High Content Screening quality control. <em>BioImage Computing workshop at <strong>ECCV 2022</strong></em>. <a target="_blank" href="https://doi.org/10.48550/arXiv.2208.04592">https://doi.org/10.48550/arXiv.2208.04592</a>
                 </li>
 
-                <li><strong>Masud, U.</strong>, Siddiqui, M., Sadiq, Mohd., Masood, S. (2022). SCS-Net: An efficient and practical approach towards Face Mask Detection. Procedia Computer Science Journal. Accepted at <i>ICMLDE</i>, 2022. <a target="_blank" href="https://doi.org/10.1016/j.procs.2023.01.165">https://doi.org/10.1016/j.procs.2023.01.165</a>
+                <li><strong>Masud, U.</strong>, Siddiqui, M., Sadiq, Mohd., Masood, S. (2022). SCS-Net: An efficient and practical approach towards Face Mask Detection. Procedia Computer Science Journal. <i>ICMLDE</i>, 2022. <a target="_blank" href="https://doi.org/10.1016/j.procs.2023.01.165">https://doi.org/10.1016/j.procs.2023.01.165</a>
                     
                 </li>
 
                 <li>
-                    Jambigi, C., <strong>Masud, U.</strong>, Chakraborty, A. (2022). G-PReDICT: Generalizable Person Re-ID using Domain Invariant Contrastive Techniques. Accepted at <i>ICVGIP</i>, 2022. <a target="_blank" href="https://doi.org/10.1145/3571600.3571655">https://doi.org/10.1145/3571600.3571655</a>
+                    Jambigi, C., <strong>Masud, U.</strong>, Chakraborty, A. (2022). G-PReDICT: Generalizable Person Re-ID using Domain Invariant Contrastive Techniques. <i>ICVGIP</i>, 2022. <a target="_blank" href="https://doi.org/10.1145/3571600.3571655">https://doi.org/10.1145/3571600.3571655</a>
                     
                 </li>
                 
                 <li>
-                    <strong>Masud, U.</strong>, Shwenker, F. (2022). Compressed Image Super-Resolution using Pre-trained Model Assistance. Accepted at <i>COMSYS</i>, 2022. <a target="_blank" href=" https://doi.org/10.1007/978-981-99-2680-0_5"> https://doi.org/10.1007/978-981-99-2680-0_5</a>
+                    <strong>Masud, U.</strong>, Shwenker, F. (2022). Compressed Image Super-Resolution using Pre-trained Model Assistance. <i>COMSYS</i>, 2022. <a target="_blank" href=" https://doi.org/10.1007/978-981-99-2680-0_5"> https://doi.org/10.1007/978-981-99-2680-0_5</a>
                 </li>
                 <li>
-                    <strong>Masud, U.</strong>, Sadiq, Mohd., Masood, S., Ahmad, M., and Ahmed A. Abd El-Latif. 2023. LW-DeepFakeNet: A Lightweight Time Distributed CNN-LSTM network for real-time DeepFake Video Detection. Accepted in <i>Signal, Image and Video Processing.</i> <a target="_blank" href="https://doi.org/10.1007/s11760-023-02633-9">https://doi.org/10.1007/s11760-023-02633-9</a>
+                    <strong>Masud, U.</strong>, Sadiq, Mohd., Masood, S., Ahmad, M., and Ahmed A. Abd El-Latif. 2023. LW-DeepFakeNet: A Lightweight Time Distributed CNN-LSTM network for real-time DeepFake Video Detection.<i>Signal, Image and Video Processing.</i> <a target="_blank" href="https://doi.org/10.1007/s11760-023-02633-9">https://doi.org/10.1007/s11760-023-02633-9</a>
                 </li>
                 <li>
                     <strong>Masud, U.</strong>, Agarwal, A. (2021). Analysing Statistical methods for Automatic Detection of Image Forgery. arXiv. <a target="_blank" href="https://doi.org/10.48550/arXiv.2111.12661">https://doi.org/10.48550/arXiv.2111.12661</a> 
@@ -394,9 +410,19 @@
                         <a href=" https://github.com/umar07/DL_Projects" target="_blank">
                             Deep Learning</a>
                         <ul>
-                            <li>Image Inpainting using a U-Net model with a fused ConvMixer encoder. <a href=" https://github.com/umar07/image-inpainting/blob/main/Image_Inpainting_Report.pdf" target="_blank">(Report)</a>
+                            <li>
+                                Clicking better Images with Under Display Cameras (UDC) in Smartphones. A
+                                7.78M params model with KD gets 30.59 PSNR, and diffusion beats SOTA getting 42.37 PSNR.
+                                <a href="https://github.com/farazali7/udc-image-restoration/blob/main/CSC2529H_Final_Project_Report_2023.pdf" target="_blank">(Report)</a>
                             </li>
-                            <li><em>Different Descriptors for Squeeze and Excitation Attention Block</em> - experimented with standard deviation, trace, largest singular value, and DC coefficient of DCT instead of usual GlobalAvgPool2d. <a href="https://github.com/umar07/SENet-Descriptors/blob/main/Project_Report.pdf" target="_blank">(Report)</a> 
+                            <li>
+                                Integrating ML functionalities - generating tags and descriptions for uploaded images, in an existing Instagram clone web-app in Flask.  <a href="https://github.com/umar07/albumy/blob/master/Implementation_Report.pdf" target="_blank">(Report)</a>
+                            </li>
+                            <li>Image Inpainting using a U-Net model with a fused ConvMixer encoder. The feature fusion
+                                method showed 1.34% improvement in terms of dice coefficient <a href=" https://github.com/umar07/image-inpainting/blob/main/Image_Inpainting_Report.pdf" target="_blank">(Report)</a>
+                            </li>
+                            <li><em>Different Descriptors for Squeeze and Excitation Attention Block - experimented with
+                                standard deviation, trace, largest singular value, and DC coefficient of DCT instead of usual GlobalAvgPool2d. The SVD approach gives a 0.78% improvement but with an 80% increase in training time. <a href="https://github.com/umar07/SENet-Descriptors/blob/main/Project_Report.pdf" target="_blank">(Report)</a> 
                             </li> 
                             <li><em>Background Remover</em> tool for portrait images of humans, made using a U-Net
                                 model trained for semantic segmentation of the image. The model achieved 0.981
@@ -448,7 +474,7 @@
 
             <!-- <hr class="m-0" /> -->
             <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <section class="resume-section" id="awards" style="font-style:normal">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Awards & Honors</h2>
                     <ul class="fa-ul mb-0"> 
@@ -533,7 +559,7 @@
             <hr class="m-0" />
             
             <!-- Volunteering-->
-         <section class="resume-section" id="volunteering">
+         <section class="resume-section" id="volunteering" style="font-style:normal">
             <div class="resume-section-content">
                 <h2 class="mb-5">Volunteering</h2>
                 <ul>
@@ -586,7 +612,6 @@
                     <div class="flex-shrink-0"><span class="text-primary">January 2021 - December 2021</span></div>
                 </div>
                </li>
-
                 </ul>
             </div>
         </section>
